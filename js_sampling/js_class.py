@@ -1,4 +1,6 @@
-
+########
+# python class for performing molecular dynamics 
+########
 def get_msm_pops(tprob):
     evals, ev = msm_analysis.get_eigenvectors(tprob, 2)
     print "first eigen value from msmbuilder:\t", np.max(evals)
