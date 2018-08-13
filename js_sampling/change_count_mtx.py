@@ -1,10 +1,11 @@
+import os,sys
+
 usage = """inputs:
 1.(wt)Mapping.dat
 2.(wt)count matrix without first three lines (so that numpy.loadtxt can open it)
 output:
 (mod_count_mtx.txt) modified count matrix with length (len(mapping.dat))**2
 """
-import os,sys
 if len(sys.argv) < 3 :
     print usage
     sys.exit(1) 
