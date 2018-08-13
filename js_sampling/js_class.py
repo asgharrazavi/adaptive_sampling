@@ -1,6 +1,8 @@
 ########
-# python class for performing molecular dynamics 
+# python class for performing Jensen-Shannon divergence adaptive-sampling 
+# for molecular dynamics simulation 
 ########
+
 def get_msm_pops(tprob):
     evals, ev = msm_analysis.get_eigenvectors(tprob, 2)
     print "first eigen value from msmbuilder:\t", np.max(evals)
