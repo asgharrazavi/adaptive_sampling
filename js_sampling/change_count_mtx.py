@@ -17,6 +17,7 @@ mapping = np.loadtxt(sys.argv[1])
 try : 
     counts = np.loadtxt(sys.argv[2])
 except :
+    # we can use numpy for this
     os.system('sed 1,3d %s > temp_counts.txt' %sys.argv[2])
     counts = np.loadtxt('temp_counts.txt')
     os.system('rm temp_counts.txt')
