@@ -39,8 +39,8 @@ class jsd:
 	    c = counts[ i * self.num_states : i * self.num_states + self.num_states ]
 	    if np.sum(c) != 0 :
 	        tprob[ i * self.num_states : i * self.num_states + self.num_states ] = c / float(np.sum(c))
-#	    else :
-#	        print " there is no count into or out of state:\t", i
+	    else :
+	        print " there is no count into or out of state:\t", i
 	    #there should be test that confirms tCounts.mtx is symmentric  
     	return tprob
     
