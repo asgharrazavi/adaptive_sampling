@@ -114,7 +114,7 @@ if __name__ == "__main__" :
     import os,sys
 
     usage = """\ninputs:
-1.counts1.txt     (use chane_counts_mtx2.py script to get this)
+1.counts1.txt     (use chane_counts_mtx.py script to get this)
 2.counts2.txt
 outpu:
 jsd for each state
