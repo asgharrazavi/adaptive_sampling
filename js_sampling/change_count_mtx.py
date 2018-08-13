@@ -13,6 +13,7 @@ if len(sys.argv) < 3 :
 import numpy as np
 import copy
 
+# load inputs
 mapping = np.loadtxt(sys.argv[1])
 try : 
     counts = np.loadtxt(sys.argv[2])
@@ -27,6 +28,7 @@ num_states = len(mapping)
 
 print "numer of states after trimming:\t", num_maped_states + 1
 print "total number of states:\t", num_states
+
 
 def change_count_mtx_indx(num_mapped_states,counts):
     counts_indx_changed = copy.deepcopy(counts)
@@ -60,6 +62,7 @@ def write_counts_to_txt(final_count_mtx):
 	for j in range(num_states):
 	    f.write('%s\t%s\t%s\n' %(i+1, j+1, final_count_mtx[i][j][0]))
     f.close()
+
 
 step1 = change_count_mtx_indx(num_maped_states,counts)
 step2 = add_zeros(step1)
