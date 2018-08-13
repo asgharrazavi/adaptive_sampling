@@ -1,1 +1,1 @@
-# adaptive_sampling
+# Some python scripts for performing adaptive sampling in molecular dynamics simulations
