@@ -5,7 +5,7 @@
 
 def get_msm_pops(tprob):
     evals, ev = msm_analysis.get_eigenvectors(tprob, 2)
-    print "first eigen value from msmbuilder:\t", np.max(evals)
+    print "first eigenvalue from msmbuilder:\t", np.max(evals)
     return ev[:,np.argmax(evals)]
 
 class jsd:
