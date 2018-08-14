@@ -134,6 +134,8 @@ jsd for each state
 
     # initiate the jsd object
     JSD = jsd(counts1, counts2)
+
+    # calculate jsd for all states in the `counts?` matrices
     jsds = JSD.jsd_for_all_states()
     
     np.savetxt('jsd.txt', jsds)
