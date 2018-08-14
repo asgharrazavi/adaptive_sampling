@@ -132,7 +132,7 @@ jsd for each state
     counts1 = np.loadtxt(sys.argv[1])
     counts2 = np.loadtxt(sys.argv[2])
 
-
+    # initiate the jsd object
     JSD = jsd(counts1, counts2)
     jsds = JSD.jsd_for_all_states()
     
