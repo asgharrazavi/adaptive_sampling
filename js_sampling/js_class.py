@@ -128,8 +128,11 @@ jsd for each state
     import copy
     from msmbuilder import msm_analysis
 
+    # load inputs
     counts1 = np.loadtxt(sys.argv[1])
     counts2 = np.loadtxt(sys.argv[2])
+
+
     JSD = jsd(counts1, counts2)
     jsds = JSD.jsd_for_all_states()
     
