@@ -140,6 +140,7 @@ jsd for each state
     
     np.savetxt('jsd.txt', jsds)
 
+    # print JS values for each state
     print "%s" %('-' * 30) , "\nstate\t\tJSD\n", "%s" %('-' * 30)
     for i in range(len(jsds)):
 	print i, "\t", jsds[i]
