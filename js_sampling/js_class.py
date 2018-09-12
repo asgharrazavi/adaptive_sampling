@@ -1,6 +1,6 @@
 ########
 # python class for performing Jensen-Shannon divergence adaptive-sampling 
-# for molecular dynamics simulation 
+# for molecular dynamics simulations 
 ########
 
 def get_msm_pops(tprob):
