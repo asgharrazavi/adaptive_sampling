@@ -8,7 +8,7 @@ output:
 """
 if len(sys.argv) < 3 :
     print usage
-    sys.exit(1) 
+    sys.exit(True) 
 
 import numpy as np
 import copy
