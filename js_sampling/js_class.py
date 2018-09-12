@@ -11,13 +11,17 @@ def get_msm_pops(tprob):
 class jsd:
 
     """
+    python class for performing Jensen-Shannon divergence adaptive-sampling 
+    for molecular dynamics simulations
     inputs:
+    -----------
     1.(wt)counts.txt        (obtained by using tCounts.mtx and change_counts_mtx2.py script)  
     2.(tz)counts.txt
     3.(wt)Populations.dat   (obtained by using Populations.dat and change_populations.py script)
     4.(tz)Populations.dat
     5.(wt+tz)Populations.dat
     output:
+    -----------
     JSD for each state and contour plots
     """
 
