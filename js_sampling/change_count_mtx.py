@@ -68,12 +68,7 @@ step1 = change_count_mtx_indx(num_maped_states,counts)
 step2 = add_zeros(step1)
 step3 = write_counts_to_txt(step2)
 
-# change -1 to 0 in the count matrix
+# change -1 to 0 in the count matrix; there must a way to do this in one line
 os.system("sed 's/-1/0/g' mod_count_mtx.txt > mod_count_mtx2.txt ")
 os.system('mv mod_count_mtx2.txt mod_count_mtx.txt ')
-
-
-
-
-    
 
