@@ -8,4 +8,4 @@
 
 ### Comments
    * `center_macro_*.pdb` are selected centers for each macro state 
-   * `original_SREP_tica.h5` is the original tICA object (with keys:) that was used in the above-cited paper. 
+   * `original_SREP_tica.h5` is the original tICA object (with keys: `['components', 'covariance', 'lag_time', 'vals', 'vecs']` ) that was used in the above-cited paper. 
