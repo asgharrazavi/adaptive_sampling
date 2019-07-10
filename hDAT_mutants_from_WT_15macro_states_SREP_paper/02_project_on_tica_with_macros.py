@@ -7,8 +7,6 @@ rcParams['axes.linewidth'] = 2
 rcParams.update({'font.size': 18})
 import matplotlib
 matplotlib.rcParams['axes.formatter.useoffset'] = False
-#from matplotlib import style
-#style.use('ggplot')
 
 # These are the "Tableau 20" colors as RGB.
 tableau20 = [(31, 119, 180), (174, 199, 232), (255, 127, 14), (255, 187, 120),
@@ -21,8 +19,6 @@ tableau20 = [(31, 119, 180), (174, 199, 232), (255, 127, 14), (255, 187, 120),
 for i in range(len(tableau20)):
     r, g, b = tableau20[i]
     tableau20[i] = (r / 255., g / 255., b / 255.)
-
-
 
 
 def plot_macros():
