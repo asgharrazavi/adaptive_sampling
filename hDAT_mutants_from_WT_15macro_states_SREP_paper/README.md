@@ -13,3 +13,5 @@
    * `raw_data.npy` contains the 12 tICA parameter values for each selected macrostate pdb file. 
    * The folder ***tcls*** contains tcl files for calculating tICA parameters.
    * The folder ***toppar_all*** contains charmm files to create mutants using 15 macrostate pdb files.
+   * The folder ***i312f*** contains pdb files fir the I312F mutation for all 15 macrostates.
+   * The folder ***t356m*** contains pdb files fir the I312F mutation for all 15 macrostates.
