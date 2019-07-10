@@ -1,4 +1,4 @@
-# These are conformations for 15 macro states that was used in hDAT wildtype MSM paper:
+## These are conformations for 15 macro states that was used in hDAT wildtype MSM paper:
 
 ###     A Markov State-based Quantitative Kinetic Model of Sodium Release from the Dopamine Transporter
 
