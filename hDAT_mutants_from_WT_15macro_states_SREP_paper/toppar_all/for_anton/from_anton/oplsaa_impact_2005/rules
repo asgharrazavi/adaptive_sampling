@@ -1,0 +1,17 @@
+{
+   "plugins" : ["bonds", "angles", "propers", "impropers", "vdw1", "exclusions", "mass"],
+   "vdw_comb_rule" : "GEOMETRIC",
+   "es_scale" : [0.0, 0.0, 0.5],
+   "lj_scale" : [0.0, 0.0, 0.5],
+   "info" : ["Jorgensen et al. (1996) J. Am. Chem. Soc. 118, 11225-11236 (1996) - primary reference",
+             "Damm et al. J. Comput. Chem. 18, 1955-1970 (1997)",
+             "Jorgensen et al, Theochem 424, 145-155 (1998)",
+             "Jorgensen et al, J. Phys. Chem. B 102, 8049-8059 (1998)",
+             "Rizzo et al, J. Am. Chem. Soc. 121, 4827-4836 (1999)",
+             "Watkins et al, J. Phys. Chem. A 105, 4118-4125 (2001)",
+             "Kaminski et al Phys Chem B, 105, 6474 (2001) - oplsaa/L reparameterization",
+             "   Version 1 torsions used for SER, version 1 for ASP, version 3 (combined) for LEU, VAL",
+             "Jacobson et al. J. Phys Chem B. 106, 11673-11680 (2002)",
+             "Note: charges for HISE in this forcefield do not seem to be published anywhere",
+             "parameter assignment as implemented in the oplsaa 2005 forcefield in IMPACT"]
+}

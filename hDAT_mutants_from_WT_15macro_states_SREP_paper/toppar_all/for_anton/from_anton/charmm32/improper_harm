@@ -1,0 +1,6 @@
+[
+   {"type": ["OBL", "*", "*", "CL"], "params": {"phi0": 0.0, "fc": 100.00}, "memo": "!  acetic acid"},
+   {"type": ["HEL2", "HEL2", "CEL2", "CEL2"], "params": {"phi0": 0.0, "fc": 3.00}, "memo": "!  ethene, yin,adm jr., 12/95"},
+   {"type": ["OCL", "*", "*", "CL"], "params": {"phi0": 0.0, "fc": 96.00}, "memo": "!  acetate"},
+   {"type": ["OCL", "*", "*", "CCL"], "params": {"phi0": 0.0, "fc": 96.00}, "memo": "!  for POPS"}
+]

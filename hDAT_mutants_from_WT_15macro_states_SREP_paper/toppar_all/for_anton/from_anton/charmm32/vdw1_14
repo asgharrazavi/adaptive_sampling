@@ -1,0 +1,7 @@
+[
+   {"type": ["CTL1"], "params": {"sigma": 3.38541512893328915, "epsilon": 0.01}, "memo": "!  alkane, 3/92"},
+   {"type": ["CTL2"], "params": {"sigma": 3.38541512893328915, "epsilon": 0.01}, "memo": "!  alkane, 4/98, yin, adm jr."},
+   {"type": ["CTL3"], "params": {"sigma": 3.38541512893328915, "epsilon": 0.01}, "memo": "!  alkane, 4/98, yin, adm jr."},
+   {"type": ["CTL5"], "params": {"sigma": 3.38541512893328915, "epsilon": 0.01}, "memo": "!  old CTL3"},
+   {"type": ["OBL"], "params": {"sigma": 2.49451641079294990, "epsilon": 0.12}, "memo": ""}
+]

@@ -1,0 +1,32 @@
+BONDS
+
+!DOP
+HA   CT2   309.000     1.1110 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92
+
+ANGLES
+!DOP
+HA   CT2  CA     49.300   107.5000 ! ALLOW   ALI ARO
+                ! PARALLH19 (JES)
+CA   CT2  CT2    75.700   110.1000 ! ALLOW   ALI ALC ARO
+                ! MeOH, EMB, 10/10/89
+HA   CT2  CT2   26.500    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92
+NH3  CT2  HA    45.000    107.50   35.00   2.10100 ! ALLOW   ALI POL
+                ! new stretch and bend; methylammonium (KK 03/10/92)
+HA   CT2  HA    35.500    109.00    5.40   1.80200 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92
+
+
+DIHEDRALS
+!DOP
+OH1  CA   CA   OH1      5.1000  2     0.00 ! ALLOW   ARO
+                ! JES 8/25/89 phenol
+OH1  CA   CA   CA       3.1000  2   180.00 ! ALLOW   ARO
+
+
+IMPROPERS
+!DOP
+CA   CA   CA   OH1   200.8000         0      0.0000 ! ALLOW HEM
+CA   CA   CA   HP     20.8000         0      0.0000 ! ALLOW HEM
+CA   CA   CA   CT2    20.8000         0      0.0000 ! ALLOW HEM

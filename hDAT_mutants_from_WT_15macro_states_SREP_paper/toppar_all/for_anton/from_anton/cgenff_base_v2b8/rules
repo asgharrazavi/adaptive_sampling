@@ -1,0 +1,12 @@
+{
+   "info" : ["GenFF: Topologies and Parameters for the Charmm General Force Field v2b8",
+             "Vanommeslaeghe et al. J. Comput. Chem. 2010, 31, 671-690",
+             "parameter sets obtained from http://mackerell.umaryland.edu/download.php?filename=CHARMM_ff_params_files/toppar_all36a_cgenff.tgz"],
+   "vdw_func" : "LJ12_6_sig_epsilon",
+   "vdw_comb_rule" : "ARITHMETIC/GEOMETRIC",
+   "exclusions" : 4,
+   "es_scale" : [0.0, 0.0, 1.0],
+   "lj_scale" : [0.0, 0.0, 1.0],
+   "plugins" : ["bonds", "angles", "ureybradley", "propers", "impropers", "vdw1", "exclusions", "mass"],
+   "nbfix_identifier" : "charmm_cgenff"
+}
