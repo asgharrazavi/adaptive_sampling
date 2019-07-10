@@ -14,6 +14,6 @@
    * `an_initial_xsc.xsc` is just an xsc file that was used for PBC correction.
    * The folder ***tcls*** contains tcl files for calculating tICA parameters.
    * The folder ***toppar_all*** contains charmm files to create mutants using 15 macrostate pdb files.
-   * The folder ***i312f*** contains pdb files fir the I312F mutation for all 15 macrostates.
-   * The folder ***t356m*** contains pdb files fir the I312F mutation for all 15 macrostates.
-   * `t356m/00_creat_mutants.sh` is used to creat mutated pdb files, which uses `t356m/tcl_for_mutating_T356M_from_SREP_15macros.tcl` tcl file. 
+   * The folder ***i312f*** contains pdb files for the I312F mutation for all 15 macrostates.
+   * The folder ***t356m*** contains pdb files for the I312F mutation for all 15 macrostates.
+   * `t356m/00_creat_mutants.sh` is used to create mutated pdb files, which uses `t356m/tcl_for_mutating_T356M_from_SREP_15macros.tcl` tcl file. 
