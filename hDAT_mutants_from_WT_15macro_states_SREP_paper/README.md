@@ -15,3 +15,4 @@
    * The folder ***toppar_all*** contains charmm files to create mutants using 15 macrostate pdb files.
    * The folder ***i312f*** contains pdb files fir the I312F mutation for all 15 macrostates.
    * The folder ***t356m*** contains pdb files fir the I312F mutation for all 15 macrostates.
+   `t356m/00_creat_mutants.sh` is used to creat mutated pdb files, which uses `t356m/
