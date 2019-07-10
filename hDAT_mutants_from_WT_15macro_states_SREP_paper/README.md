@@ -12,3 +12,4 @@
    * `original_SREP_tica.h5` is the original tICA object (with keys: `['components', 'covariance', 'lag_time', 'vals', 'vecs']` ) that was used in the above-cited paper. 
    * `raw_data.npy` contains the 12 tICA parameter values for each selected macrostate pdb file. 
    * The folder ***tcls*** contains tcl files for calculating tICA parameters.
+   * The folder ***toppar_all*** contains charmm files to create mutants using 15 macrostate pdb files.
