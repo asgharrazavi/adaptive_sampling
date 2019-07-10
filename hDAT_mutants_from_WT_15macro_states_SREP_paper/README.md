@@ -7,4 +7,5 @@
 ------
 
 ### Comments
+   * `center_macro_*.pdb` are selected centers for each macro state 
 
