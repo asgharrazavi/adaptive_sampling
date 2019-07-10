@@ -7,5 +7,6 @@
 ------
 
 ### Comments
-   * `center_macro_*.pdb` are selected centers for each macro state 
+   * `center_macro_*.pdb` are selected centers for each macro state.
+   * `img_center_macro_location_on_tica.png` shows location of each selected macrostate center on tICA landscape. 
    * `original_SREP_tica.h5` is the original tICA object (with keys: `['components', 'covariance', 'lag_time', 'vals', 'vecs']` ) that was used in the above-cited paper. 
